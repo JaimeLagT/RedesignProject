@@ -1,0 +1,142 @@
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #fafafa;
+    color: #222;
+}
+
+/* TOP BAR */
+.top-bar {
+    background: #7e0000;
+    color: white;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to bottom, #b30000, #7a0000);
+    padding: 15px 0;
+    color: white;
+    border-bottom: 3px solid #550000;
+}
+
+.nav-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/* NAV LINKS */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    background: url("https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?q=80&w=1400")
+        center/cover no-repeat;
+    padding: 120px 20px;
+    text-align: center;
+    color: white;
+    background-position-y: 30%;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.55);
+    padding: 20px 40px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* SECTIONS */
+.container {
+    width: 85%;
+    margin: 50px auto;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-left: 6px solid #b30000;
+    padding-left: 12px;
+}
+
+/* PROMOTIONS */
+.promo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.promo-card {
+    background: #fff4f4;
+    padding: 25px;
+    border-left: 6px solid #b30000;
+    border-radius: 6px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* MOVIES */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.movie-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+.footer {
+    background: #7a0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
